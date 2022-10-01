@@ -38,7 +38,7 @@ let currentRoom: Room | undefined;
 let startTime: number;
 
 const searchParams = new URLSearchParams(window.location.search);
-const storedUrl = searchParams.get('url') ?? 'ws://localhost:7880';
+const storedUrl = searchParams.get('url') ?? 'wss://api.kit.cyber.lk';
 const storedToken = searchParams.get('token') ?? '';
 (<HTMLInputElement>$('url')).value = storedUrl;
 (<HTMLInputElement>$('token')).value = storedToken;
