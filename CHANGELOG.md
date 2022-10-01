@@ -1,5 +1,11 @@
 # Change Log
 
+## 1.4.2
+
+### Patch Changes
+
+- [#451](https://github.com/livekit/client-sdk-js/pull/451) [`627aa3e`](https://github.com/livekit/client-sdk-js/commit/627aa3e84df8a6c26a3488f053250ce2112d3050) Thanks [@lukasIO](https://github.com/lukasIO)! - Add isLocal getter to participant class
+
 ## 1.4.1
 
 ### Patch Changes
